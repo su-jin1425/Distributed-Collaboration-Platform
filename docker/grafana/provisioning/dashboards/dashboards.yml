@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: Collaboration
+    orgId: 1
+    folder: Collaboration
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/provisioning/dashboards
